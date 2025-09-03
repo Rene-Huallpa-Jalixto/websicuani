@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENETECH - Soluciones Tecnológicas de Vanguardia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;800&family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">RENETECH</div>
+            <p style="margin-top: 1rem; color: var(--primary); font-size: var(--font-size-base);">Cargando experiencia...</p>
+        </div>
+    </div>
+    
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+                RENETECH
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="theme-toggle-item">
+                        <div class="theme-toggle" id="themeToggle" title="Cambiar tema">
+                            <div class="theme-toggle-icon sun">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="theme-toggle-icon moon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-logo">RENETECH
+            </div>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li>
+                <a href="#" id="mobileResourcesToggle">Recursos <i class="fas fa-chevron-down"></i></a>
+                <div class="mobile-menu-submenu" id="mobileResourcesSubmenu">
+                    <a href="#blog">Blog</a>
+                    <a href="#calculadora">Calculadora</a>
+                    <a href="#descargas">Descargas</a>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="mobile-menu-footer">
+            <div class="mobile-social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h2>REVOLUCIONAMOS EL FUTURO DIGITAL</h2>
+                    <p>Soluciones tecnológicas de vanguardia que transforman ideas en realidades extraordinarias</p>
+                    <div class="hero-buttons">
+                        <a href="#contacto" class="btn btn-primary">Iniciar Proyecto</a>
+                        <a href="#servicios" class="btn btn-secondary">Explorar Servicios</a>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <i class="fas fa-code floating-element"></i>
+                    <i class="fas fa-rocket floating-element"></i>
+                    <i class="fas fa-microchip floating-element"></i>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="nosotros" class="about">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">SOBRE NOSOTROS</h2>
+                    <p class="section-subtitle">Innovación, experiencia y pasión por la tecnología</p>
+                </div>
+                
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <h3>Líderes en Transformación Digital</h3>
+                        <p>En ReneTech, somos apasionados por la tecnología y su capacidad
+                         para transformar negocios. Hemos ayudado a cientos de empresas a alcanzar sus objetivos 
+                         digitales.</p>
+                        <p>Nuestro equipo de expertos combina creatividad, technical 
+                         skills y visión de negocio para ofrecer soluciones que no 
+                         solo resuelven problemas, sino que impulsan el crecimiento
+                         y la innovación.</p>
+                        
+                        <div class="about-stats">
+                            <div class="about-stat">
+                                <div class="about-stat-number">48+</div>
+                                <div class="about-stat-label">Proyectos</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">44+</div>
+                                <div class="about-stat-label">Clientes</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">13+</div>
+                                <div class="about-stat-label">Expertos</div>
+                            </div>
+                            <div class="about-stat">
+                                <div class="about-stat-number">2+</div>
+                                <div class="about-stat-label">Años</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Nuestro equipo trabajando">
+                        <div class="about-image-overlay">
+                            <div class="about-play-btn" id="aboutVideoBtn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="servicios" class="services">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">NUESTROS SERVICIOS</h2>
+                    <p class="section-subtitle">Tecnología de punta para impulsar tu éxito</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Web Development -->
+                    <div class="service-card fade-in">
+                        <div class="service-badge">Oferta</div>
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Páginas Web</h3>
+                        <p>Sitios web ultramodernos con rendimiento excepcional.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Diseño responsivo de última generación</li>
+                            <li><i class="fas fa-check-circle"></i> Diseño Personalizado</li>
+                            <li><i class="fas fa-check-circle"></i> Chat whatsapp flotante</li>
+                            <li><i class="fas fa-check-circle"></i> Dominio gratis 3 años. Hosting gratis 1 año 3 Gb</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+                    </div>
+                    
+                    <!-- App Development -->
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Desarrollo de Aplicativos Móviles</h3>
+                        <p>Desarrollamos aplicaciones móviles intuitivas y funcionales para Android.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Desarrollo nativo de alto rendimiento</li>
+                            <li><i class="fas fa-check-circle"></i> Experiencia de usuario inmersiva</li>
+                            <li><i class="fas fa-check-circle"></i> Integración con APIs modernas</li>
+                            <li><i class="fas fa-check-circle"></i> Soporte técnico post-lanzamiento</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+                    </div>
+                    
+                    <!-- Systems Development -->
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Sistemas Empresariales</h3>
+                        <p>Creamos sistemas a medida que optimizan procesos, mejoran la eficiencia y se integran perfectamente con tus operaciones diarias.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Sistemas de gestión empresarial</li>
+                            <li><i class="fas fa-check-circle"></i> Automatización inteligente</li>
+                            <li><i class="fas fa-check-circle"></i> ERP y CRM personalizados</li>
+                            <li><i class="fas fa-check-circle"></i> Soporte 24/7 premium</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+                    </div>
+                    
+                    <!-- E-commerce Solutions -->
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Comercio Electrónico</h3>
+                        <p>Plataformas de venta online de alto rendimiento</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Catálogo de productos avanzado</li>
+                            <li><i class="fas fa-check-circle"></i> Pasarelas de pago seguras</li>
+                            <li><i class="fas fa-check-circle"></i> Gestión de envíos</li>
+                            <li><i class="fas fa-check-circle"></i> Integración con redes sociales</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+                    </div>
+
+                    <!-- Restaurant Solutions -->
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Soluciones para Restaurantes</h3>
+                        <p>Sistemas integrales para la industria gastronómica</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Sistema de pedidos digital</li>
+                            <li><i class="fas fa-check-circle"></i> Gestión de inventario</li>
+                            <li><i class="fas fa-check-circle"></i> Menú digital interactivo</li>
+                            <li><i class="fas fa-check-circle"></i> Análisis de ventas en tiempo real</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+                    </div>
+                    
+                    <!-- Hotel Solutions -->
+<div class="service-card fade-in">
+    <div class="service-icon">
+        <i class="fas fa-hotel"></i>
+    </div>
+    <h3>Soluciones manejo de Hospedaje - Hoteles</h3>
+    <p>Tecnología especializada para atención de huéspedes</p>
+    <ul class="service-features">
+        <li><i class="fas fa-check-circle"></i> Gestión de reservas y pagos</li>
+        <li><i class="fas fa-check-circle"></i> Control de acceso a habitaciones</li>
+        <li><i class="fas fa-check-circle"></i> Seguimiento de servicios</li>
+        <li><i class="fas fa-check-circle"></i> App móvil para huéspedes</li>
+    </ul>
+    <a href="#contacto" class="btn btn-primary" style="margin-top: 1.5rem;">Cotizar Ahora</a>
+</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonios" class="testimonials">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">TESTIMONIOS</h2>
+                    <p class="section-subtitle">Lo que dicen nuestros clientes sobre nosotros</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <br>
+                        <div class="testimonial-quote">
+                            "ReneTech transformó completamente nuestra presencia digital. 
+                            Su equipo profesional y su atención al detalle son excepcionales."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="" alt="Cliente" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h4>Carlos Soto</h4>
+                                <p>Ing. Mecanico</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <br>
+                        <div class="testimonial-quote">
+                            "El sistema ERP que implementaron revolucionó nuestras operaciones. 
+                            Ahora podemos tomar decisiones basadas en datos en tiempo real."
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="" alt="Cliente" class="testimonial-avatar">
+                            <div class="testimonial-info">
+                                <h4>Ana Lopez</h4>
+                                <p>Directora, Restaurant Cocatambo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Team Section -->
+        <section id="equipo" class="team">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">NUESTRO EQUIPO</h2>
+                    <p class="section-subtitle">Los expertos detrás de tu éxito digital</p>
+                </div>
+                
+                <div class="team-grid">
+                    <div class="team-member fade-in">
+                        <div class="team-member-image">
+                            <div class="team-member-overlay">
+                                <div class="team-member-social">
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Jhon Joau</h3>
+                        <p>Fundador</p>
+                        <span class="team-member-badge">5+ años experiencia en redes</span>
+                    </div>
+                    
+                    <div class="team-member fade-in">
+                        <div class="team-member-image">
+                            <div class="team-member-overlay">
+                                <div class="team-member-social">
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Rene Robiñho</h3>
+                        <p>Diseñadora UX/UI</p>
+                        <span class="team-member-badge">Desarrollador de Aplicación Webs - Moviles</span>
+                    </div>
+                    
+                    <div class="team-member fade-in">
+                        <div class="team-member-image">
+                            <div class="team-member-overlay">
+                                <div class="team-member-social">
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Erick Mamani</h3>
+                        <p>Experto en redes</p>
+                        <span class="team-member-badge">2+ años Electrónica</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portfolio Section -->
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">PROYECTOS DESTACADOS</h2>
+                    <p class="section-subtitle">Innovación que inspira resultados extraordinarios</p>
+                </div>
+                
+                <div class="portfolio-filter fade-in">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="app">App</button>
+                    <button class="filter-btn" data-filter="system">Sistemas</button>
+                    <button class="filter-btn" data-filter="gym">Gimnasios</button>
+                    <button class="filter-btn" data-filter="restaurant">Restaurantes</button>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <!-- Portfolio Item 1 -->
+                    <div class="portfolio-item fade-in" data-category="web">
+                        <div class="portfolio-img" style="background-image: url('https://hotmart.com/media/2022/10/image-plataformas-ecommerce.webp')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Plataforma E-commerce</h3>
+                            <p>Tienda online con IA de recomendación y análisis predictivo</p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">Web</span>
+                                <span class="portfolio-tag">E-commerce</span>
+                                <span class="portfolio-tag">IA</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item fade-in" data-category="app">
+                        <div class="portfolio-img" style="background-image: url('https://media.latina.pe/2022/03/app.jpg')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>App de Delivery Inteligente</h3>
+                            <p>Aplicación con rutas optimizadas y seguimiento en tiempo real</p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">App</span>
+                                <span class="portfolio-tag">iOS/Android</span>
+                                <span class="portfolio-tag">GPS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item fade-in" data-category="system">
+                        <div class="portfolio-img" style="background-image: url('https://info.corponet.com.mx/hubfs/Un%20software%20ERP%20es%20la%20piedra%20angular%20de%20la%20industria%204.0%20en%20M%C3%A9xico.jpg')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Sistema ERP Industrial</h3>
+                            <p>Gestión completa con IoT y análisis predictivo</p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">Sistema</span>
+                                <span class="portfolio-tag">ERP</span>
+                                <span class="portfolio-tag">IoT</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item fade-in" data-category="gym">
+                        <div class="portfolio-img" style="background-image: url('https://configuroweb.com/wp-content/uploads/2022/02/Sistema-de-Gestion-Hotelera-en-PHP-y-MySQL.png')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+    <h3>App para Cadena de Hoteles</h3>
+    <p>Plataforma integral con gestión de reservas y servicios</p>
+    <div class="portfolio-tags">
+        <span class="portfolio-tag">Hotel</span>
+        <span class="portfolio-tag">App</span>
+        <span class="portfolio-tag">Reservas</span>
+    </div>
+</div>
+                    </div>
+                    
+                    <!-- Portfolio Item 5 -->
+                    <div class="portfolio-item fade-in" data-category="restaurant">
+                        <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Sistema para Restaurante Premium</h3>
+                            <p>Gestión de pedidos, inventario y experiencia de cliente</p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">Restaurante</span>
+                                <span class="portfolio-tag">Sistema</span>
+                                <span class="portfolio-tag">Gastronomía</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item fade-in" data-category="web">
+                        <div class="portfolio-img" style="background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80')">
+                            <div class="portfolio-overlay">
+                                <div class="btn btn-primary">Ver Proyecto</div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Portal Corporativo para Multinacional</h3>
+                            <p>Intranet con gestión de documentos y comunicación interna</p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">Web</span>
+                                <span class="portfolio-tag">Corporativo</span>
+                                <span class="portfolio-tag">Intranet</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Pricing Section -->
+        <section id="precios" class="pricing">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">PLANES Y PRECIOS</h2>
+                    <p class="section-subtitle">Soluciones adaptadas a tus necesidades y presupuesto</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="pricing-card fade-in">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Básico</h3>
+                            <div class="pricing-price">S/ 350<span></span></div>
+                            <p class="pricing-period">Ideal para nuevas empresas</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Sitio web responsivo</li>
+                            <li><i class="fas fa-check"></i> Hasta 5 páginas</li>
+                            <li><i class="fas fa-check"></i> Hosting básico</li>
+                            <li><i class="fas fa-check"></i> Soporte por email</li>
+                            <li class="not-included"><i class="fas fa-times"></i> SEO avanzado</li>
+                            <li class="not-included"><i class="fas fa-times"></i> Analytics</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-secondary" style="width: 100%;">Comenzar</a>
+                    </div>
+                    
+                    <!-- Professional Plan -->
+                    <div class="pricing-card featured fade-in">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Profesional</h3>
+                            <div class="pricing-price">S/ 500<span></span></div>
+                            <p class="pricing-period">Para empresas en crecimiento</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Todo en Básico</li>
+                            <li><i class="fas fa-check"></i> Páginas ilimitadas</li>
+                            <li><i class="fas fa-check"></i> Hosting 1 año</li>
+                            <li><i class="fas fa-check"></i> SEO avanzado</li>
+                            <li><i class="fas fa-check"></i> Analytics completo</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary" style="width: 100%;">Comenzar</a>
+                    </div>
+                    
+                    <!-- Enterprise Plan -->
+                    <div class="pricing-card fade-in">
+                        <div class="pricing-header">
+                            <h3 class="pricing-name">Enterprise</h3>
+                            <div class="pricing-price">Personalizado</div>
+                            <p class="pricing-period">Para corporaciones</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Todo en Profesional</li>
+                            <li><i class="fas fa-check"></i> Desarrollo a medida</li>
+                            <li><i class="fas fa-check"></i> Integración con sistemas</li>
+                            <li><i class="fas fa-check"></i> Consultoría estratégica</li>
+                            <li><i class="fas fa-check"></i> Manager dedicado</li>
+                            <li><i class="fas fa-check"></i> SLA garantizado</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-secondary" style="width: 100%;">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Blog Section -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">BLOG Y RECURSOS</h2>
+                    <p class="section-subtitle">Conocimiento y tendencias del mundo tecnológico</p>
+                </div>
+                
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-card fade-in">
+                        <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80')">
+                            <span class="blog-category">Desarrollo Web</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 15 Nov 2023</span>
+                                <span><i class="far fa-clock"></i> 5 min lectura</span>
+                            </div>
+                            <h3>Las 10 tendencias de desarrollo web para 2024</h3>
+                            <p>Descubre las tecnologías y metodologías que dominarán el panorama del desarrollo web el próximo año...</p>
+                            <a href="https://www.startechup.com/es/blog/10-web-development-trends-in-2024/" class="blog-read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card fade-in">
+                        <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80')">
+                            <span class="blog-category">Apps Móviles</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 10 Nov 2023</span>
+                                <span><i class="far fa-clock"></i> 8 min lectura</span>
+                            </div>
+                            <h3>Cómo elegir el stack tecnológico para tu app móvil</h3>
+                            <p>Una guía completa para tomar la mejor decisión técnica para tu próximo proyecto móvil...</p>
+                            <a href="https://www.startechup.com/es/blog/top-mobile-app-tech-stack/" class="blog-read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 3 -->
+                    <div class="blog-card fade-in">
+                        <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80')">
+                            <span class="blog-category">Transformación Digital</span>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar"></i> 5 Nov 2023</span>
+                                <span><i class="far fa-clock"></i> 6 min lectura</span>
+                            </div>
+                            <h3>Caso de éxito: Digitalización de cadena de restaurantes</h3>
+                            <p>Cómo ayudamos a un restaurante tradicional a aumentar sus ventas en un 200% mediante tecnología...</p>
+                            <a href="https://www.camarero10.com/caso-de-exito-de-digitalizacion-en-hosteleria-restaurante-yakk-grill/" class="blog-read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Calculator Section -->
+        <section id="calculadora" class="calculator">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">CALCULADORA DE PRESUPUESTO</h2>
+                    <p class="section-subtitle">Estima rápidamente el costo de tu proyecto</p>
+                </div>
+                
+                <div class="calculator-container fade-in">
+                    <form class="calculator-form" id="calculatorForm">
+                        <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary);">Selecciona los servicios <br> que necesitas:</h3>
+                        
+                        <div class="calculator-group">
+                            <div class="calculator-item" data-price="350">
+                                <i class="fas fa-laptop-code"></i>
+                                <h4>Sitio Web Básico</h4>
+                                <p>Desde S/ 350</p>
+                            </div>
+                            <div class="calculator-item" data-price="500">
+                                <i class="fas fa-store"></i>
+                                <h4>Tienda Online</h4>
+                                <p>Desde S/ 500</p>
+                            </div>
+                            <div class="calculator-item" data-price="1200">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>App Móvil</h4>
+                                <p>Desde S/ 1200</p>
+                            </div>
+                            <div class="calculator-item" data-price="1500">
+                                <i class="fas fa-server"></i>
+                                <h4>Sistema Empresarial</h4>
+                                <p>Desde S/ 1500</p>
+                            </div>
+                        </div>
+                        
+                        <div class="calculator-group">
+                            <div class="calculator-item" data-price="100">
+                                <i class="fas fa-search"></i>
+                                <h4>SEO Básico</h4>
+                                <p>Desde S/ 100</p>
+                            </div>
+                            <div class="calculator-item" data-price="100">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Marketing Digital</h4>
+                                <p>Desde S/ 100</p>
+                            </div>
+                            <div class="calculator-item" data-price="140">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Seguridad Web</h4>
+                                <p>Desde S/ 140</p>
+                            </div>
+                            <div class="calculator-item" data-price="200">
+                                <i class="fas fa-headset"></i>
+                                <h4>Soporte Mensual</h4>
+                                <p>Desde S/ 200</p>
+                            </div>
+                        </div>
+                        
+                        <div class="calculator-result">
+                            <h3>Presupuesto Estimado</h3>
+                            <div class="calculator-price" id="calculatorPrice">S/ 0<span></span></div>
+                            <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1rem;">Este es un estimado preliminar</p>
+                            <button type="button" class="btn btn-success" id="calculatorContact">Solicitar Cotización Detallada</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Section -->
+        <section id="estadisticas" class="stats">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">NUESTROS LOGROS</h2>
+                    <p class="section-subtitle">Números que reflejan nuestro compromiso con la excelencia</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-target="138">0</div>
+                        <div class="stat-label">Proyectos Completados</div>
+                    </div>
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-target="72">0</div>
+                        <div class="stat-label">Clientes Satisfechos</div>
+                    </div>
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-target="7">0</div>
+                        <div class="stat-label">Expertos en Equipo</div>
+                    </div>
+                    <div class="stat-item fade-in">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Años de Experiencia</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <div class="newsletter-content fade-in">
+                    <h2>¿Listo para transformar tu negocio?</h2>
+                    <p>Suscríbete a nuestro newsletter y recibe las últimas tendencias tecnológicas y ofertas exclusivas</p>
+                    <form name="Tendencias Tecnologícas" class="newsletter-form" id="newsletterForm" method="POST" netlify>
+                        <input name="Email" type="email" placeholder="Tu email" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">CONTACTO</h2>
+                    <p class="section-subtitle">Hablemos sobre tu próximo proyecto revolucionario</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info fade-in">
+                        <h3>INFORMACIÓN DE CONTACTO</h3>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Atención remota y presencial<br>Distrito Sicuani, Provincia Canchis, Ciudad Cusco</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+51 972 000 306</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>renehuallpagame@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horario</h4>
+                                <p>Lun - Vie: 9:00 AM - 7:00 PM<br>Sáb: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div style="margin-top: 2rem;">
+                            <h4 style="margin-bottom: 1rem; color: var(--text-primary);">Descarga Nuestro Brochure</h4>
+                            <button class="btn btn-outline" id="downloadBrochure">
+                                <i class="fas fa-download"></i> Descargar PDF
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form fade-in">
+                        <form name="Contactarlos" id="contactForm" method="POST" netlify>
+                            <div class="form-group">
+                                <label for="name">Nombre Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Servicio de Interés</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="web">Página Web</option>
+                                    <option value="app">Aplicación Móvil</option>
+                                    <option value="system">Sistema Empresarial</option>
+                                    <option value="gym">Soluciones para Gimnasios</option>
+                                    <option value="restaurant">Soluciones para Restaurantes</option>
+                                    <option value="ecommerce">Comercio Electrónico</option>
+                                    <option value="consulting">Consultoría Tecnológica</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Presupuesto Estimado</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Selecciona un rango</option>
+                                    <option value="Solo Consulta">Solo Consulta</option>
+                                    <option value="350-500">S/ 350 - S/ 500</option>
+                                    <option value="500-700">S/ 500 - S/ 700</option>
+                                    <option value="700-1000">S/ 700 - S/ 1000</option>
+                                    <option value="1000+">S/ 1000+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Descripción del Proyecto</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <div class="container">
+                <div class="certifications-grid fade-in">
+                    <div class="certification-item">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-bolt"></i>
+                    RENETECH
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#portafolio">Portafolio</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            
+            <div class="footer-bottom">
+    <div class="copyright">
+        &copy; 2023 RENETECH. Desarrollo de páginas web, apps móviles y sistemas en Sicuani, Cusco, Perú. 
+        Todos los derechos reservados. | Diseñado con <i class="fas fa-heart" style="color: var(--primary);"></i> para la innovación
+    </div>
+    <div class="footer-legal">
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos de Servicio</a>
+        <a href="#">Cookies</a>
+        <a href="/servicios-sicuani">Servicios en Sicuani</a>
+    </div>
+</div>
+        </div>
+    </footer>
+    
+    <!-- 
+    Notification 
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+        ¡Mensaje enviado correctamente! Te contactaremos en menos de 24 horas.
+    </div>
+    -->
+   
+    <!-- Popup Newsletter -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <button class="popup-close" id="popupClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2>¿Te gustaría recibir nuestras ofertas?</h2>
+            <p>Suscríbete y obtén un 10% de descuento en tu primer proyecto</p>
+            <form name="Descuento del 10%" class="popup-form" id="popupForm" method="POST" netlify>
+                <input type="text" name="Nombre" placeholder="Tu nombre" required>
+                <input type="email" name="Email" placeholder="Tu email" required>
+                <button type="submit">Suscribirse y Obtener Descuento</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to dark
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        html.setAttribute('data-theme', currentTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+        
+        // Mobile Menu mejorado
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+        const mobileResourcesToggle = document.getElementById('mobileResourcesToggle');
+        const mobileResourcesSubmenu = document.getElementById('mobileResourcesSubmenu');
+        
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+        });
+        
+        mobileMenuClose.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            mobileMenuToggle.classList.remove('active');
+        });
+        
+        mobileResourcesToggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            mobileResourcesSubmenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            });
+        });
+        
+        // Progress Bar
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+        });
+        
+        // Loader
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1500);
+        });
+        
+        // Particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: ['#0066ff', '#000000', '#00aaff']
+                },
+                shape: {
+                    type: 'circle',
+                    stroke: {
+                        width: 0,
+                        color: '#000000'
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 2,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#0066ff',
+                    opacity: 0.2,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 1,
+                    direction: 'none',
+                    random: true,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'grab'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 0.5
+                        }
+                    },
+                    push: {
+                        particles_nb: 4
+                    }
+                }
+            },
+            retina_detect: true
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        /*
+        // Contact form
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show notification
+            showNotification('¡Mensaje enviado correctamente! Te contactaremos en menos de 24 horas.');
+            
+            // Reset form
+            this.reset();
+        });
+        
+        // Newsletter form
+        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show notification
+            showNotification('¡Gracias por suscribirte! Recibirás nuestras novedades pronto.');
+            
+            // Reset form
+            this.reset();
+        });
+        
+        // Popup form
+        document.getElementById('popupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show notification
+            showNotification('¡Suscripción exitosa! Revisa tu email para el cupón de descuento.');
+            
+            // Close popup
+            document.getElementById('popupOverlay').classList.remove('active');
+            
+            // Reset form
+            this.reset();
+        });
+        */
+        // Portfolio filter
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 10);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+        
+        // Animate stats on scroll
+        const stats = document.querySelectorAll('.stat-number');
+        let animated = false;
+        
+        function animateStats() {
+            if (!animated) {
+                stats.forEach(stat => {
+                    const target = parseInt(stat.getAttribute('data-target'));
+                    let count = 0;
+                    const increment = target / 100;
+                    
+                    const updateCount = () => {
+                        if (count < target) {
+                            count += increment;
+                            stat.textContent = Math.ceil(count);
+                            setTimeout(updateCount, 20);
+                        } else {
+                            stat.textContent = target + '+';
+                        }
+                    };
+                    
+                    updateCount();
+                });
+                animated = true;
+            }
+        }
+        
+        // Calculator
+        const calculatorItems = document.querySelectorAll('.calculator-item');
+        const calculatorPrice = document.getElementById('calculatorPrice');
+        const calculatorContact = document.getElementById('calculatorContact');
+        let selectedServices = [];
+        
+        calculatorItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const price = parseInt(item.getAttribute('data-price'));
+                
+                if (item.classList.contains('selected')) {
+                    item.classList.remove('selected');
+                    selectedServices = selectedServices.filter(p => p !== price);
+                } else {
+                    item.classList.add('selected');
+                    selectedServices.push(price);
+                }
+                
+                updateCalculatorPrice();
+            });
+        });
+        
+        function updateCalculatorPrice() {
+            const total = selectedServices.reduce((sum, price) => sum + price, 0);
+            calculatorPrice.innerHTML = `$${total.toLocaleString()}<span>/mes</span>`;
+        }
+        
+        calculatorContact.addEventListener('click', () => {
+            const total = selectedServices.reduce((sum, price) => sum + price, 0);
+            showNotification(`Solicitud enviada para presupuesto de $${total.toLocaleString()}. Te contactaremos pronto.`);
+        });
+        
+        // Download brochure
+        document.getElementById('downloadBrochure').addEventListener('click', () => {
+            // Simulate download
+            showNotification('Descargando brochure... Por favor espera.');
+            setTimeout(() => {
+                showNotification('¡Brochure descargado correctamente!');
+            }, 2000);
+        });
+        
+        // About video
+        document.getElementById('aboutVideoBtn').addEventListener('click', () => {
+            showNotification('Video corporativo: Próximamente disponible');
+        });
+        
+        // Notification function
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            notification.innerHTML = `<i class="fas fa-check-circle" style="margin-right: 10px;"></i>${message}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 5000);
+        }
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    // Trigger stats animation
+                    if (entry.target.classList.contains('stat-item')) {
+                        animateStats();
+                    }
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Add parallax effect to hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.hero-content');
+            const speed = scrolled * 0.5;
+            
+            if (parallax) {
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+        
+        // Función para ajustar la altura de las tarjetas de la calculadora en móviles
+        function adjustCalculatorItems() {
+            const calculatorItems = document.querySelectorAll('.calculator-item');
+            let maxHeight = 0;
+            
+            // Resetear alturas
+            calculatorItems.forEach(item => {
+                item.style.height = 'auto';
+            });
+            
+            // Calcular altura máxima solo si estamos en una pantalla móvil
+            if (window.innerWidth <= 768) {
+                // Calcular altura máxima
+                calculatorItems.forEach(item => {
+                    const height = item.offsetHeight;
+                    if (height > maxHeight) {
+                        maxHeight = height;
+                    }
+                });
+                
+                // Aplicar altura máxima a todos los elementos
+                calculatorItems.forEach(item => {
+                    item.style.height = `${maxHeight}px`;
+                });
+            }
+        }
+        
+        // Ejecutar al cargar la página y al cambiar el tamaño de la ventana
+        window.addEventListener('load', adjustCalculatorItems);
+        window.addEventListener('resize', adjustCalculatorItems);
+        
+        // También ejecutar después de que se carguen las imágenes
+        window.addEventListener('load', () => {
+            setTimeout(adjustCalculatorItems, 500);
+        });
+        
+        // Ajustar el menú móvil en orientación horizontal
+        window.addEventListener('orientationchange', function() {
+            if (window.innerWidth > 768) {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+            adjustCalculatorItems();
+        });
+        
+        // Mejorar la experiencia táctil en la calculadora
+        document.querySelectorAll('.calculator-item').forEach(item => {
+            item.addEventListener('touchstart', function() {
+                this.style.transform = 'scale(0.98)';
+            });
+            
+            item.addEventListener('touchend', function() {
+                this.style.transform = '';
+            });
+        });
+        
+        // Responsive adjustments
+        function handleResize() {
+            if (window.innerWidth > 768) {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+        }
+        
+        window.addEventListener('resize', handleResize);
+        handleResize();
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            // Escape key to close modals
+            if (e.key === 'Escape') {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+                document.getElementById('popupOverlay').classList.remove('active');
+            }
+        });
+        
+        // Show popup after 10 seconds
+        setTimeout(() => {
+            if (!localStorage.getItem('popupShown')) {
+                document.getElementById('popupOverlay').classList.add('active');
+                localStorage.setItem('popupShown', 'true');
+            }
+        }, 10000);
+        
+        // Popup controls
+        document.getElementById('popupClose').addEventListener('click', () => {
+            document.getElementById('popupOverlay').classList.remove('active');
+        });
+        
+        document.getElementById('popupOverlay').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                document.getElementById('popupOverlay').classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
